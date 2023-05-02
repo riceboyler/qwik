@@ -8,10 +8,8 @@ export default component$(() => {
   return (
     <footer>
       <div class="container">
-        <a href="https://www.builder.io/" target="_blank" class={styles.anchor}>
-          <span>Made with ♡ by Builder.io</span>
-          <span class={styles.spacer}>|</span>
-          <span>{serverTime.value.date}</span>
+        <a href="https://www.riceboyler.com/" class={styles.anchor}>
+          <span>Made with ♡ by riceboyler, &copy; and All Rights Reserved</span>
         </a>
       </div>
     </footer>
