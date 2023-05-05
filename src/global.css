@@ -15,47 +15,14 @@
  */
 
 :root {
-  --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
-  --qwik-light-purple: #ac7ff4;
-  --qwik-dark-purple: #713fc2;
-  --qwik-dirty-black: #1d2033;
-  --qwik-dark-background: #151934;
-  --qwik-dark-text: #ffffff;
-
   --font-zilla-slab: 'Zilla Slab', serif;
   --font-zen-kaku: 'Zen Kaku Gothic New', sans-serif;
+  --focus-blue: '#1a2c9c'
 }
 
-html {
-  line-height: 1;
-  -webkit-text-size-adjust: 100%;
-  -moz-tab-size: 4;
-  -o-tab-size: 4;
-  tab-size: 4;
-  font-family: var(--font-zilla-slab), ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-    'Segoe UI Symbol', 'Noto Color Emoji';
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  font-family: 'Zilla Slab', sans-serif;
-}
-
-ul > li {
-  list-style-type: initial;
-  margin-left: 20px;
-}
-
-a:hover {
-  font-weight: bold;
-}
-
-.center {
-  margin: 0 auto;
-  text-align: center;
+@layer base {
+  ul {
+    @apply list-disc;
+    @apply list-inside;
+  }
 }

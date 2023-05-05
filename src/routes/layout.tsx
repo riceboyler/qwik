@@ -1,4 +1,4 @@
-import { component$, Slot, useStyles$ } from '@builder.io/qwik';
+import { component$, Slot } from '@builder.io/qwik';
 import { routeLoader$ } from '@builder.io/qwik-city';
 
 import "@fontsource/zen-kaku-gothic-new/400.css";
@@ -20,12 +20,12 @@ export const useServerTimeLoader = routeLoader$(() => {
 
 export default component$(() => {
   return (
-    <main class="bg-gradient-to-br from-white to-slate-400 dark:bg-gradient-to-br dark:from-slate-900 dark:to-indigo-700 text-slate-800 dark:text-slate-50 min-h-screen m-0 p-0">
+    <section class="bg-gradient-to-br from-white to-slate-400 dark:bg-gradient-to-b dark:from-focusBlue dark:to-indigo-900 text-slate-800 dark:text-slate-50 min-h-screen max-w-7xl place-self-center mx-auto my-0 p-4">
       <Header />
       <main>
         <Slot />
       </main>
       <Footer />
-    </main>
+    </section>
   );
 });

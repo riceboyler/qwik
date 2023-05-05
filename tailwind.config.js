@@ -13,6 +13,9 @@ module.exports = {
       serif: ['Zilla Slab', 'serif']
     },
     extend: {
+      colors: {
+        focusBlue: '#1a2c9c'
+      }
     },
   },
   plugins: [],
