@@ -40,6 +40,7 @@
   },
   "dependencies": {
     "@builder.io/sdk-qwik": "^0.2.3",
+    "@fontsource/unbounded": "^4.5.1",
     "@fontsource/zen-kaku-gothic-new": "^4.5.17",
     "@fontsource/zilla-slab": "^4.5.9",
     "qwik-image": "^0.0.3"

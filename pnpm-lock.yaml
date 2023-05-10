@@ -4,6 +4,7 @@ specifiers:
   '@builder.io/qwik': 0.107.0
   '@builder.io/qwik-city': ^0.107.0
   '@builder.io/sdk-qwik': ^0.2.3
+  '@fontsource/unbounded': ^4.5.1
   '@fontsource/zen-kaku-gothic-new': ^4.5.17
   '@fontsource/zilla-slab': ^4.5.9
   '@types/eslint': 8.37.0
@@ -24,6 +25,7 @@ specifiers:
 
 dependencies:
   '@builder.io/sdk-qwik': 0.2.3_@builder.io+qwik@0.107.0
+  '@fontsource/unbounded': 4.5.1
   '@fontsource/zen-kaku-gothic-new': 4.5.17
   '@fontsource/zilla-slab': 4.5.9
   qwik-image: 0.0.3
@@ -317,6 +319,10 @@ packages:
     resolution: {integrity: sha512-kf9RB0Fg7NZfap83B3QOqOGg9QmD9yBudqQXzzOtn3i4y7ZUXe5ONeW34Gwi+TxhH4mvj72R1Zc300KUMa9Bng==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
+
+  /@fontsource/unbounded/4.5.1:
+    resolution: {integrity: sha512-IDC84Vp89QMe8IYqYufViSJ7jdBjA+yaaqb3b5d1pSc0oJFG5DAQksxIGf1U7cheSB2JDE/aFRztuT5H6/WMmQ==}
+    dev: false
 
   /@fontsource/zen-kaku-gothic-new/4.5.17:
     resolution: {integrity: sha512-AfEmiwr3610H7+VJ/VqTo0vwU5gEfHcvvFFHg14UGaEeaKfW2vBEU07dbqlUuN8vB2Z3uBcfMYabkZ0sp1t//w==}
